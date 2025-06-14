@@ -1,0 +1,6 @@
+@AgendaApp.ApiTarefas_HostAddress = http://localhost:5136
+
+GET {{AgendaApp.ApiTarefas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
