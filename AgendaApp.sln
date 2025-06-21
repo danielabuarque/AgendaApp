@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.ApiUsuarios", "AgendaApp.ApiUsuarios\AgendaApp.ApiUsuarios.csproj", "{9B072D97-AD47-494A-8E44-80793AA69ECB}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Camada de Domínio", "3- Camada de Domínio", "{EB679FEF-18EE-40EB-8B4E-7547C5978686}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de infraestrutura", "4 - Camada de infraestrutura", "{4B1D2278-AC26-4407-92FA-DB0885C74FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.Domain", "AgendaApp.Domain\AgendaApp.Domain.csproj", "{94E4EF30-A66E-41AA-8153-96659F31FA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.Infra.Data", "AgendaApp.Infra.Data\AgendaApp.Infra.Data.csproj", "{2C5938B2-3274-4160-8544-B44706CE4293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.Infra.Security", "AgendaApp.Infra.Security\AgendaApp.Infra.Security.csproj", "{B8B95E4C-42E8-411B-8E48-1CF58BC79683}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{8C362E82-0D6E-4798-B91D-6313A8A11E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C362E82-0D6E-4798-B91D-6313A8A11E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C362E82-0D6E-4798-B91D-6313A8A11E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E4EF30-A66E-41AA-8153-96659F31FA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E4EF30-A66E-41AA-8153-96659F31FA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E4EF30-A66E-41AA-8153-96659F31FA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E4EF30-A66E-41AA-8153-96659F31FA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5938B2-3274-4160-8544-B44706CE4293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5938B2-3274-4160-8544-B44706CE4293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5938B2-3274-4160-8544-B44706CE4293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5938B2-3274-4160-8544-B44706CE4293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B95E4C-42E8-411B-8E48-1CF58BC79683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B95E4C-42E8-411B-8E48-1CF58BC79683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B95E4C-42E8-411B-8E48-1CF58BC79683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B95E4C-42E8-411B-8E48-1CF58BC79683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9B072D97-AD47-494A-8E44-80793AA69ECB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8C362E82-0D6E-4798-B91D-6313A8A11E97} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{94E4EF30-A66E-41AA-8153-96659F31FA73} = {EB679FEF-18EE-40EB-8B4E-7547C5978686}
+		{2C5938B2-3274-4160-8544-B44706CE4293} = {4B1D2278-AC26-4407-92FA-DB0885C74FD9}
+		{B8B95E4C-42E8-411B-8E48-1CF58BC79683} = {4B1D2278-AC26-4407-92FA-DB0885C74FD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49A4D572-3D48-42C3-9EF1-2420561DF6BB}
